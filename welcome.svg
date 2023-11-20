@@ -17,7 +17,7 @@
       100% { background-position: 0% 50%; }
     }
     
-    .container {
+    .Container {
       --color-main: #5452ee;
       --color-primary: #e73c7e;
       --color-secondary: #23a6d5;
@@ -65,15 +65,8 @@
   </style>
   
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="container">
-      <iframe src="https://avisek.github.io/frontend-mentor-solutions/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <div xmlns="http://www.w3.org/1999/xhtml" class="Container">
       <h1>Hi there, my name is Avisek <span class="hi">👋</span></h1>
     </div>
-    
-    <script>
-      setInterval(() => {
-        console.log(Math.round(performance.now()))
-      }, 1000)
-    </script>
   </foreignObject>
 </svg>
